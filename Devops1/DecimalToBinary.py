@@ -33,7 +33,3 @@ def dtbconverter(num):  # Function inputs a float value and returns a list as ou
     whole.reverse()
 
     return whole + fractional  ### End of dtbconverter() - 16 lines
-
-# Test lines.
-number = float(input("Enter Any base-10 Number: "))
-print("The Binary Equivalant: ", *dtbconverter(number))
